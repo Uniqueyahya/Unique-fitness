@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique Fitness - Work Hard To Get Better Life</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/favicon-Ia4ED8c_.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/assets/hero-banner-BuPf2xcr.png">
+  <link rel="preload" as="image" href="/assets/hero-circle-one-Z9xM1R5_.png">
+  <link rel="preload" as="image" href="/assets/hero-circle-two-CFAHGZla.png">
+  <link rel="preload" as="image" href="/assets/heart-rate-j5OsgVmg.svg">
+  <link rel="preload" as="image" href="/assets/calories-C--8Vqiw.svg">
+
+  <script type="module" crossorigin src="/assets/index-owpoRjEI.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BJncG8WA.css">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+        <span class="span">Unique Fitness </span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Classes</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">Join Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('data:image/png;base64,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')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">The Best</strong>Fitness Club
+            </p>
+
+            <h1 class="h1 hero-title">Work Hard To Get Better Life</h1>
+
+            <p class="section-text">
+              Achieve your fitness goals with expert coaching, personalized workout plans, and a supportive community.
+              Whether you're looking to lose weight, build muscle, or improve your overall health, we're here to help you
+              succeed every step of the way.
+            </p>
+
+            <a href="#" class="btn btn-primary">Get Started</a>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="/assets/hero-banner-BuPf2xcr.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <img src="/assets/hero-circle-one-Z9xM1R5_.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="/assets/hero-circle-two-CFAHGZla.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            <img src="/assets/heart-rate-j5OsgVmg.svg" width="255" height="270" alt="heart rate"
+              class="abs-img abs-img-1">
+            <img src="/assets/calories-C--8Vqiw.svg" width="348" height="224" alt="calories" class="abs-img abs-img-2">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="/assets/about-banner-BFxHcFbU.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="/assets/about-circle-one-CZxtVQFv.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="/assets/about-circle-two-k2LDjCD8.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+            <img src="data:image/png;base64,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" width="650" height="154" loading="lazy" alt="fitness"
+              class="abs-img w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Welcome To Our Fitness Gym</h2>
+
+            <p class="section-text">
+              Transform your body, strengthen your mind, and unlock your full potential. We provide a supportive
+              environment, modern training techniques, and personalized fitness programs designed to help you achieve
+              lasting results. Whether you're just starting your fitness journey or aiming to reach the next level,
+              we're here to guide you every step of the way.
+            </p>
+
+            <p class="section-text">
+              Consistency, discipline, and determination are the foundation of every success story. Join a community
+              that motivates you to stay committed and become the strongest version of yourself.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="data:image/jpeg;base64,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" width="65" height="65" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">Unique Yahya</h3>
+
+                  <p class="coach-title">Our Coach</p>
+                </div>
+
+              </div>
+
+              <a href="#" class="btn btn-primary">Explore More</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image"
+            style="background-image: url('/assets/video-banner-sKtOA6GF.jpg')">
+
+            <h2 class="h2 card-title">Explore Fitness Life</h2>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="btn-link has-before">Watch More</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('/assets/classes-bg-C2lLXbCD.png')">
+        <div class="container">
+
+          <p class="section-subtitle">Our Classes</p>
+
+          <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="/assets/class-1-BsB0n1_J.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAolBMVEUAAAD/QQz9PQz/PQv/PgD9PQz7PQv/Pgr/PAr+PAz9PQz8PQv9PQz9PQz+PQz8PAv9PQz8PQz9PAz9PQz9PQz9PQz9PAz9PQv9PQz8Pgv/Pg38PQz9PAv/Pgz9PQz9PQv+PQv9PAz9PQz9PQz8PQv/PAr/PhH9PQz9PQv8PQz9PAz8PA38PA3/Ow//PQz9PQz9PQz9PQv/Pgr9PQv/PAr9PQzFxBP4AAAANXRSTlMAE6gtBaRGGQq6klfbz65J78XAoXr61XRqQDvKnCji37OYgmZdMA74iFSNYk4iH+vmcDTzMomI9fwAAAKYSURBVEjHzdbpcqJAGIXhgwEREcQFl4jbuGu2Sea9/1sb6JCYBMFMfs1TpVXgabv7a7tFGf+Rl5GqFGMbCKCuCsXYL+70jKMKxdiQWz3QVKli7NAbpH3e0KpVc15jc+ckjQBzdc05theRPaSdXiVX52RiTXuAiNy+uXK2VqXt3sSWVgud/n14fam9DF4LkdQgnW2QJMcuzHtpgQiOSdLhyYEwyWPLgzK/81q6LNVgIalLX6kVgaQ9N6bceex9hr5u6aWvvbRD6qdtjFN6VxFZjf33mJENdAZjWUwkD0svsXJPSFl3IdP3WO7Q4mklKTK93CptnKthBq0Z9lvszDbvHg8acxJd5RzMjQatPFZ0pC6X3odGPTRkk62iyvgMJWZirlwXeWzl01cZ84UBWuDmo6alOMqGMFYZM/Q9UzF5m6TlUss63KpUC1subJoM/O32boJzH7GR4heV+81IWvPJUGpX7tAGO0nTpheGi253EYbe8lnSDFcVRnRVELJXpQWepU/sGhNdUYP+p2nuWNi6ZhUTnFOeqcR1tnPua81iq+85TyLE0g8aufqeBp1zWe7/u0Y/KsT2Y09TfcttwFq5Oq26rvM7sPx46jNYX2syB6+tD8YhRCtVaELyR19M07tO1cYNHpS78zq+rVeWx7F8feKGDHf4SGrXf1ulx5Kf0/koaIdAssmGhXfId/RIl+0ZZ+OawWBlma7XHYjWUsUR26UhbaD3rHc3S6jnJ+JF8U5Sh/GX4jGQNKehS1wWktjpC5M/simpw1C6xysuXtr3mlXpc4IOxf+HE6OsEr2SOlivT01fPJt8PNclu1jSpLiKNo9mZrYuGDCVRayCWfqBG0e6ZAwdWF+okPnA10WHWckm8J+IRjr7C/cUbkYG5ekWAAAAAElFTkSuQmCC" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Strength Training</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Build muscle, increase strength, and improve overall fitness with guided weight training sessions
+                    designed for all experience levels.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Availability</p>
+
+                      <span class="progress-value">85% Full</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="/assets/class-2-BlEiAIkI.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="data:image/png;base64,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" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Cardio & Strength</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Boost your endurance and burn calories with a combination of cardio exercises and strength-focused
+                    workouts for a balanced fitness routine.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Availability</p>
+
+                      <span class="progress-value">70% Full</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="/assets/class-3-CDKBo42X.jpg" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAtFBMVEUAAAD9Pgn9PAv/Mwv+PQv/Ow3+PQv9PAv+PQz+PQz9PAv+PQv+PQz+PQv8PAn+Ogr+Ogr9PQv9PQz+PAz9PAr+PQz9PQv+PQv9PQv+PAv9PAv+PAn+PQv+PQv9PAv+PAz+PQz9PAv+PAv+PQz9PAz9PQv+PQz/PQ3+PQv+PAv9PAv+PAz9PAv+Owj9PQv+PAv+PQv9PQr9Owr+PQz+PQv9PAv9PAz9Owv/PQz9PQz9PQz9PQtzBTlLAAAAO3RSTlMAG6UH5gvf+dzajuLVziYXDspkUjWunnZCXEge7Los2MWA7ujCtIQS9b6Hemwik3BXTi/x0qq3PGlhmZHElC0AAAO6SURBVEjHlZXpkqJAEISBpmnu+xbkRkQQBTx5//daFHcwNmZcJn9I0+0XSGZVif0g2eKH1MZ+JbAvEroTtF9BR4GtMa3fS7+BHJ51btXWXP2C2ZRJ4XleEbrLmfUp7vfVzTK4oJIXMjXR7dsNBHBz3HL5QoiNoxWYTLR9/rbMufTUTisIQRUQmyUQ4anP5+CWYq5XubLIDJ9yMYC7+ZZCHiuqdLOAgSl532cK4/G5ZlJZGpdLKujkeR2VlY4ugZolEVctSqkSzkdRgs/KYBRXWpbt2RRfS5UjALZIkvHVFFa8X9wX3GQ6JhKCii2UG4bao+ZWOc3iSyF45RVW1RqCNnRssaRbRjE9F7A6WEi0WnWs9dsuao6rtXp18QV+R1nPKQ4E8gZiIstQiqn9r6d0giNNlinx16g4W1nBW5+pDcsknGOnL9O0Pt80XdIfPkIqxZqc0/ov6MBH0Ap3W2P9yeuM0lVOxQ1ff6bckFZ9N+rmY9OvBaJ26N0mostxeEHbD13dNySN9D91erDb2Py9bgnBbG67LV/Jdk9AW0nlT6+kQr03WkzfMyTHpdUKO3ImpmfKh6kZJRqw+ccLic2dYDVp9CImZNHsP5QTEdtYRSmXqdifHyry11JOax9mCnnB9nHgvgVnDYorW2TzYaYoLciQ95Ylng/0Fagx+yO0UgyxDgd0BXMI+yEuMac7/QhpPIu7fFLsZoMvBvJM6PLCT/ZdDEGDOXUK3tpVCwN/q4slx35P1Vs6x/GtcpuG0SSHz3b8Tl5n1E76d5Q8GbLEpZJSa4NYz3HTpu2nmrw+TxT4au7L8YKLPrnD8Yg+iXa6n3/KQSE2Bz49jM+ix3P3qMPXf2XhJfmWswBeUicRizgLzk1p+rqsBswBigbDmogMned+M6R5jxILjMGPDHbuDu/hBir2l0LIYAP6ue8VEHPCkWGfjBSOZTTLScYZK7sTlUnQmSBEAgy0QI7Iczve2v393V2bf0xzcIwZG8DxXOef2+dBw6XRgzh08XERjd2Kz7oQqT1eVk7HPI5bg5kGNlkwgkAiRDIcIwQdSjiSERiOnNShYlxSPEKPr3me+aqvOxoSKtwKDN0NtLIVaDpBHUVTDzFKyD+uwXiexEhowN9sg0SbXL6S1gqC8UpX8JuCjrxoDmNgXyUqnlFYOi1eMdcZmoWT1OzQ8BWn7RfDMNB83MjfQcwMbQZSnE8kt1SKwfmGkTVkzHeVN/jEJJONdpFJD8KJ+FcnYeDeIzzwaHgXKub7WXE2lf8fCOJnZuUxlokAAAAASUVORK5CYII=" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Power Yoga</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Improve flexibility, balance, and mental focus while building core strength through dynamic and
+                    energizing yoga sessions.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Availability</p>
+
+                      <span class="progress-value">90% Full</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="/assets/class-4-Bi3dprbJ.jpg" width="416" height="240" loading="lazy" alt="The Fitness Pack"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAApVBMVEUAAAD9PQz/PQv+PQz9PAz9PQv8PQz9PQz/Pgv/PQn/PAD/PQ38PAr9PQz7PQv/PQ/9PAz9PAz/OxH9PQz/Pgv9PQz+PQz9PQz9PQv9PQz9PQv9PQz8PQ3/PQz9PAz9PAz8PQv9PQz9PQz+PAz9PQv/PQn9PQz9PQz+PQv9PQz8PQv8PQv+PAz9PQv8PAz9PQz9PQz+Pgz/PAr+PQz9PQz9PQ39PQzAI6RNAAAANnRSTlMA0TW7e5rEzCwJBTtJqEMikHYO4xb5t4GKlvTaTijVZlfm37+GGu/qsn1exqxvVKGSPzC9aaLt6Qi3AAAC6klEQVRIx5XWi26iUBSF4SUOIAioyEVAEO+3Om2dznr/R5vDRaSAdvySmjT6J7g3nIiGwTuZfOElv8ldRPZfaRzSALbvfMf/iCcb3/d7tJBJOPOF9HljsRAhN2fBwwMTRVXP5MmShoah3+YhSeLfAxNVVc241fjM9VDQcmVrMOeOmhF3Izt7zS7JRsi7BClTaM6Rk1akAtqQU0iKp8FU7j7EAmZXYMhjK+ph4JIJOqQk32Fw0hH59D2+fYzHQSBe7oI9jxExfBBpUNllAu9R9IvzfMgtDqA+jgx0+ymSLEt6LbIQUJBfiiRwv9ksab8YecAbdVs2a+Y/RQrwh3BYFzyNhnDpuqQOZ1QDQHk2vbkahupvNG17RFxG27Vrt/fUTtT8qeGpfE4V7XuknxaLk9aIToyCYFWsYkguvl/eJ/oUlEa0YHbB1lR8XHM5b08vStOkuaeUFwjOjvqHCNvRId+Tk0xv1jpGPJfnjEK1a0+q4yiE4/Im0oEVr8jsyc+OPU0p7MXn9BsI8T78+rSsrckVRpY13H6fXiwfDvIATSZzIXsHZqaXn58nj6433mw8CuvNZqyQqnOPRh+mGcStW/xNK2dfnkiOzKVWfacVhaWOOplj4G/+kO2I0pH92vRGo3O2J606Y0eMYO+KjZO4WVOq78msPxpDzMSfWt6s8qGKBjSrKJrPE+q2pxTWMZbElh5aQt7uvTWFc/076WI3F/5uRwpv09MWl8vCRo1NNR9RS7+K2mzxjm2h7U8VGcpyeZ43o1w7up8RGb1xeZ36rKZ3zjZg42oVJGiMuqM1v5972Nb25Lrd0fQe7X1/SV37NSscHfTpoC1fRXmWyxT+ou7CU1f0yVk18qFhNHbiMOqeQ5xFR17RJejanySCLNrwKx50MBhqrWjJax4ZfCjRWpudlb8j0kDuNDa5kupJ3Ct+n3GFJ05kUGWDMSmXw+j1H/LkkILaF1SXnKbI2R6fccNwumdu93Z7uP4BnnOSgGzr4i0AAAAASUVORK5CYII=" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Complete Fitness Program</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    A comprehensive fitness program that combines strength training, cardio, flexibility, and nutrition
+                    guidance to help you achieve your health goals faster.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Availability</p>
+
+                      <span class="progress-value">60% Full</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Our News</p>
+
+          <h2 class="h2 section-title text-center">Latest Blog Feed</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="/assets/blog-1-bECWcUKQ.jpg" width="440" height="270" loading="lazy"
+                    alt="Going to the gym for the first time" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Going to the gym for the first time</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Taking your first step into the gym can feel intimidating, but everyone starts somewhere. Learn the
+                    basics of fitness, build confidence, and create healthy habits that will keep you motivated on your journey.
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="/assets/blog-2-tQo8IQ47.jpg" width="440" height="270" loading="lazy"
+                    alt="Parturient accumsan cacus pulvinar magna" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">5 Strength Training Tips for Beginners</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Discover simple yet effective strength training techniques to improve your form, prevent injuries,
+                    and build muscle faster. Small improvements in your routine can lead to big results over time.
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="/assets/blog-3-CHkFeEzt.jpg" width="440" height="270" loading="lazy"
+                    alt="Risus purus namien parturient accumsan cacus" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">7 July 2022</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Nutrition Habits That Boost Your Performance</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Your workouts are only part of the equation. Learn how proper nutrition, hydration, and recovery can
+                    help you gain energy, improve performance, and reach your fitness goals more effectively.
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Read More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('data:image/png;base64,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')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+            <span class="span">Unique Fitness </span>
+          </a>
+
+          <p class="footer-brand-text">
+            At Unique Fitness, we believe in building a strong community where everyone can achieve their health and fitness goals. Join us and transform your life today.
+          </p>
+
+          <div class="wrapper">
+
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAAmVBMVEUAAAD9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQz9PQyiyweOAAAAMnRSTlMABQ35cRPXxap8Hhj1pGdi1Mu/uC0J20M0JOuzrZ2Yal1ZRyLohYJUJ/CKd1E8jot2TmH+ruQAAAGfSURBVDjLfZPteoIwDIVDS0EFBERRnN+66Tbdx7n/i1toqwVxnj8k9CUn6ROooWizCufAPFylA3qkS4KGetMOENVA8bmrPK+a+i81tG8TvzHwUbl88BZDbpuEDywiE45yTz9VAvRbxKcNPUDYcN1gdkBKXYSOwNFEQuKHxNbOWR6MUbRVNASM/QIFcbakll5rlx5GdTwGRD3CrI2M305sG+Oii3yZl24ip35dRgHKpK5dp4nEnjbMNRHZQrgbn1bwnyEpehRi+gyZIaB37PnAayAO57cCkgCPRlKW4tauslEuZUgkwQhRDswtwsaZMEgJBBqJMeByzl8FCGwmhDHKXbv2gJmJu2SUtIRPd0ymvdzQKQq60yS7eVHCFSJAdJgAB+96BxXRC16pyxyu+xjq+5P8ReSP29Ter3fs3QxTYPHfSi11Eb0OQ1LrkznKS9PFYB3RFrDregaO7X3prn2f63SRDfBN1GASZcIwM0aTFfChI/dF3FcuF/7cVnaq9J8+nDGmZmkigWJM99oxxJJSP4ozPdJpnWQxOwa91j3+Ae+pLnfQIUc1AAAAAElFTkSuQmCC" width="34" height="34" loading="lazy" alt="Clock">
+
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Monday - Friday</p>
+
+                <p>7:00Am - 10:00Pm</p>
+              </li>
+
+              <li>
+                <p class="footer-brand-title">Saturday - Sunday</p>
+
+                <p>7:00Am - 2:00Pm</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Our Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Classes</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Contact Us</p>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              Project Quaters Lafia
+            </address>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:18001213637" class="footer-link">1800-121-3637</a>
+
+              <a href="tel:+2349027349119" class="footer-link">+234 902 734 9119</a>
+            </div>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@Unique Fitness .com" class="footer-link">info@Unique Fitness .com</a>
+
+              <a href="mailto:services@Unique Fitness .com" class="footer-link">services@Unique Fitness .com</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Our Newsletter</p>
+          </li>
+
+          <li>
+            <form action="" class="footer-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required
+                class="input-field">
+
+              <button type="submit" class="btn btn-primary" aria-label="Submit">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 Unique Fitness . All Rights Reserved By <a href="#" class="copyright-link">St Dev</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
